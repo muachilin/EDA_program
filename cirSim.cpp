@@ -1,10 +1,3 @@
-/****************************************************************************
-  FileName     [ cirSim.cpp ]
-  PackageName  [ cir ]
-  Synopsis     [ Define cir simulation functions ]
-  Author       [ Chung-Yang (Ric) Huang ]
-  Copyright    [ Copyleft(c) 2008-present LaDs(III), GIEE, NTU, Taiwan ]
-****************************************************************************/
 #include <bitset>
 #include <fstream>
 #include <iostream>
@@ -23,17 +16,6 @@ using namespace __gnu_cxx;
 // TODO: Keep "CirMgr::randimSim()" and "CirMgr::fileSim()" for cir cmd.
 //       Feel free to define your own variables or functions
 
-/*******************************/
-/*   Global variable and enum  */
-/*******************************/
-
-/**************************************/
-/*   Static varaibles and functions   */
-/**************************************/
-
-/************************************************/
-/*   Public member functions about Simulation   */
-/************************************************/
 
 bool sort_fec(const int &a, const int &b)
 {
@@ -349,12 +331,6 @@ CirMgr::randomSim()
 }
 
 
-
-
-
-
-
-
 void
 CirMgr::fileSim(ifstream& patternFile)
 {
@@ -613,9 +589,6 @@ CirMgr::fileSim(ifstream& patternFile)
  
 }
 
-/*************************************************/
-/*   Private member functions about Simulation   */
-/*************************************************/
 
 size_t
 CirMgr::simulation(size_t index,bool inv)
@@ -716,21 +689,5 @@ CirMgr::simulation(size_t index,bool inv)
         }
         
 
-
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
