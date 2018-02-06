@@ -1,10 +1,3 @@
-/****************************************************************************
-  FileName     [ cirFraig.cpp ]
-  PackageName  [ cir ]
-  Synopsis     [ Define cir FRAIG functions ]
-  Author       [ Chung-Yang (Ric) Huang ]
-  Copyright    [ Copyleft(c) 2012-present LaDs(III), GIEE, NTU, Taiwan ]
-****************************************************************************/
 
 #include <cassert>
 #include <algorithm>
@@ -21,23 +14,12 @@ using namespace __gnu_cxx;
 // TODO: Please keep "CirMgr::strash()" and "CirMgr::fraig()" for cir cmd.
 //       Feel free to define your own variables or functions
 #define NEG 0x1
-/*******************************/
-/*   Global variable and enum  */
-/*******************************/
+
 bool myfunc(pair<int,int>const&a,pair<int,int>const&b)
 {
     return (cirMgr->gate_list[ a.first]->getId() < cirMgr->gate_list[ b.first]->getId());
 }
 
-/**************************************/
-/*   Static varaibles and functions   */
-/**************************************/
-
-/*******************************************/
-/*   Public member functions about fraig   */
-/*******************************************/
-// _floatList may be changed.
-// _unusedList and _undefList won't be changed
 
 size_t
 CirMgr::hash_to_key(size_t&a,size_t& b)
@@ -534,24 +516,10 @@ CirMgr::fraig()
         }
     }
     
-    
-    
-    
+
     
     
 }
-
-/********************************************/
-/*   Private member functions about fraig   */
-/********************************************/
-
-
-
-
-
-
-
-
 
 
 
