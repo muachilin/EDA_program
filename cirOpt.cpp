@@ -1,11 +1,3 @@
-/****************************************************************************
-  FileName     [ cirSim.cpp ]
-  PackageName  [ cir ]
-  Synopsis     [ Define cir optimization functions ]
-  Author       [ Chung-Yang (Ric) Huang ]
-  Copyright    [ Copyleft(c) 2008-present LaDs(III), GIEE, NTU, Taiwan ]
-****************************************************************************/
-
 #include <cassert>
 #include "cirMgr.h"
 #include "cirGate.h"
@@ -16,20 +8,6 @@ using namespace std;
 // TODO: Please keep "CirMgr::sweep()" and "CirMgr::optimize()" for cir cmd.
 //       Feel free to define your own variables or functions
 
-/*******************************/
-/*   Global variable and enum  */
-/*******************************/
-
-/**************************************/
-/*   Static varaibles and functions   */
-/**************************************/
-
-/**************************************************/
-/*   Public member functions about optimization   */
-/**************************************************/
-// Remove unused gates
-// DFS list should NOT be changed
-// UNDEF, float and unused list may be changed
 
 bool sortfunc(CirGate* g1,
               CirGate* g2)
@@ -455,13 +433,4 @@ CirMgr::recursive_opt(int index)
         }
     }
 }
-
-/***************************************************/
-/*   Private member functions about optimization   */
-/***************************************************/
-
-
-
-
-
 
