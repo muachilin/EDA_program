@@ -1,11 +1,3 @@
-/****************************************************************************
-  FileName     [ cirGate.cpp ]
-  PackageName  [ cir ]
-  Synopsis     [ Define class CirAigGate member functions ]
-  Author       [ Chung-Yang (Ric) Huang ]
-  Copyright    [ Copyleft(c) 2008-present LaDs(III), GIEE, NTU, Taiwan ]
-****************************************************************************/
-
 #include <iostream>
 #include <iomanip>
 #include <sstream>
@@ -24,9 +16,7 @@ using namespace std;
 
 extern CirMgr *cirMgr;
 
-/**************************************/
-/*   class CirGate member functions   */
-/**************************************/
+
 size_t
 CirGate::invert_value_gate(size_t x)const
 {
