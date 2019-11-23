@@ -1,13 +1,13 @@
 # Functionally Reduced AND-Inverter Graph
   Project Copyright
-  ========
+  ------------
 
   Author       [ Chung-Yang (Ric) Huang ]
   Copyright    [ Copyleft(c) 2012-present LaDs(III), GIEE, NTU, Taiwan ]
   This project is written by Chung-Yang (Ric) Huang. Parts of the programs are designed by myself.
   
   Main Functions
-  ==============
+  ----------
 
   1. Sweep  
      - Remove the gates that cannot be reached from POs   
@@ -25,7 +25,7 @@
      - Based on the identified FEC pairs/groups, perform fraig operations on the circuit. All the SAT-proven equivalent gates should be merged together
   
   Problems and Solutions
-  =============
+  -----------------
 
   1. Strash
       - Processing the inverted information of inputs needs to use additional bool variable.
