@@ -10,7 +10,8 @@
   ----------
 
   1. Sweep  
-     >Remove the gates that cannot be reached from POs   
+  
+      >Remove the gates that cannot be reached from POs   
         
   2. Optimization   
      >Perform trivial circuit optimizations including constant propagation and redundant gate removal.  
