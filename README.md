@@ -22,10 +22,10 @@
      
      
   4. Simulate  
-     > - Perform circuit simulation to distinguish the functionally different signals. And thus collect the Functionally Equivalent Candidates (FEC) pairs/groups.
+     - Perform circuit simulation to distinguish the functionally different signals. And thus collect the Functionally Equivalent Candidates (FEC) pairs/groups.
   
   5. Fraig  
-     > - Based on the identified FEC pairs/groups, perform fraig operations on the circuit. All the SAT-proven equivalent gates should be merged together
+     - Based on the identified FEC pairs/groups, perform fraig operations on the circuit. All the SAT-proven equivalent gates should be merged together
   
   Problems and Solutions
   -----------------
