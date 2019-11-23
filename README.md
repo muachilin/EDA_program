@@ -12,11 +12,27 @@ Main Functions
   After the merger, the fanouts of the merged gate will be re-connected to the gate that merges it.  
  
   4. Simulate  
-  Perform circuit simulation to distinguish the functionally different signals and thus collect the FEC pairs/groups.
+  Perform circuit simulation to distinguish the functionally different signals.
+  And thus collect the Functionally Equivalent Candidates (FEC) pairs/groups.
   
   5. Fraig  
   Based on the identified FEC pairs/groups, perform fraig operations on the circuit. 
   All the SAT-proven equivalent gates should be merged together
+  
+  
+Problems and Solutions
+
+  1. Strash
+      - Processing the inverted information of inputs needs to use additional bool variable.
+        In order to save memory usage, I cast the variable of input gate into size_t.
+  
+  2. Simulate  
+     - Use "~" to inverse bit patterns can cause ambiguities. 
+       Therefore, I use bitset to perform inverse.  
+     - Improve efficiency
+       Set a stopping criteria according to overall circuit size to control when to stop simulation.
+       Record the number of continuous times of simulations that gates do not split new groups of FEC.
+       If the number equals to the stopping criteria, then stop the simulation right away.
 
 project copyright:
 
