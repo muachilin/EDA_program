@@ -2,9 +2,9 @@
   Project Copyright
   ------------
 
-  Author       [ Chung-Yang (Ric) Huang ]
-  Copyright    [ Copyleft(c) 2012-present LaDs(III), GIEE, NTU, Taiwan ]
-  This project is written by Chung-Yang (Ric) Huang. Parts of the programs are designed by myself.
+  - Author       [ Chung-Yang (Ric) Huang ]
+  - Copyright    [ Copyleft(c) 2012-present LaDs(III), GIEE, NTU, Taiwan ]
+  - This project is written by Chung-Yang (Ric) Huang. Parts of the programs are designed by myself.
   
   Main Functions
   ----------
