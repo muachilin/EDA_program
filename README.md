@@ -4,19 +4,19 @@
 
   - Author       [ Chung-Yang (Ric) Huang ]
   - Copyright    [ Copyleft(c) 2012-present LaDs(III), GIEE, NTU, Taiwan ]
-  - This project is written by Chung-Yang (Ric) Huang. Parts of the programs are designed by myself.
+  - This project is for the final project in the course, EE3011 Data Structure and Programming. Parts of the programs are designed by myself.
   
   Main Functions
   ----------
 
   1. Sweep  
-     - Remove the gates that cannot be reached from POs   
+     >> - Remove the gates that cannot be reached from POs   
         
   2. Optimization   
-     - Perform trivial circuit optimizations including constant propagation and redundant gate removal.  
+     >> - Perform trivial circuit optimizations including constant propagation and redundant gate removal.  
 
   3. Strash  
-     - Merge the structurally equivalent gates. After the merger, the fanouts of the merged gate will be re-connected to the gate that merges it.  
+     >> - Merge the structurally equivalent gates. After the merger, the fanouts of the merged gate will be re-connected to the gate that merges it.  
  
   4. Simulate  
      - Perform circuit simulation to distinguish the functionally different signals. And thus collect the Functionally Equivalent Candidates (FEC) pairs/groups.
