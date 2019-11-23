@@ -10,7 +10,7 @@
   ----------
 
   1. Sweep  
-      - Remove the gates that cannot be reached from POs
+      - Remove the gates that cannot be reached from Primary Outputs (POs)
   
   
   2. Optimization   
